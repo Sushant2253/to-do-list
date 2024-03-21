@@ -1,0 +1,36 @@
+body {
+    background-image: url("../resources/background.jpg");
+    background-size: 100%;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 45px;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+.items-container {
+    text-align: left;
+    background-image: none;
+    margin: 25px;
+}
+
+input {
+    width: 100%;
+    background-blend-mode: soft-light;
+
+}
+
+
+
+.kg-row {
+    margin: 10px 5px;
+}
+
+button {
+    float: right;
+    padding: 0px;
+    margin: 0%;
+    width: 100%;
+}
