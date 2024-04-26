@@ -7,27 +7,6 @@ import WelcomeMsg from "./components/WelcomeMsg";
 import "./App.css";
 
 function App() {
-  // const initialTodoItems = [
-  //   {
-  //     name: "Buy Milk",
-  //     dueDate: "24/2/24",
-  //   },
-  //   {
-  //     name: "Do Homework",
-  //     dueDate: "24/2/24",
-  //   },
-  //   {
-  //     name: "Read Book",
-  //     dueDate: "29/2/24",
-  //   },
-  //   {
-  //     name: "Arrange Books",
-  //     dueDate: "29/2/24",
-  //   },
-  // ];
-
-  // const initialTodoItems = [];
-
   const [todoItems, setToDoItems] = useState([]);
 
   const handleNewItem = (itemName, itemDueDate) => {

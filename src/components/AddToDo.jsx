@@ -13,9 +13,16 @@ function AddTodo({ onNewItem }) {
   };
 
   const handleAddButtonClicked = () => {
-    onNewItem(todoName, dueDate);
-    setDueDate("");
-    setTodoName("");
+    // Check if todoName and dueDate are not empty
+    if (todoName.trim() !== "" && dueDate.trim() !== "") {
+      onNewItem(todoName, dueDate);
+      // Clear input fields after adding item
+      setDueDate("");
+      setTodoName("");
+    } else {
+      // Display an alert or error message indicating that fields are empty
+      alert("Todo name and due date must not be empty");
+    }
   };
 
   return (
